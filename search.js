@@ -4,6 +4,7 @@ but raguler expression is active here.
 */
 var h = "Hello";
 
-console.log( h.search("l") );
-console.log( h.search("") );
-console.log( h.search(/^H/) );
+console.log( h.search("l") );// 2
+console.log( h.search("a") );// -1
+console.log( h.search("") );// 0
+console.log( h.search(/^H/) );// 0

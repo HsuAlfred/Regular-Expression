@@ -12,5 +12,5 @@ H e l l o
 var h = "Hello";
 console.log( h.match("l") );
 console.log( h.match("ll") );
-console.log( h.match("le") );
+console.log( h.match("le") );//null
 console.log( h.match(/^e/) );//regular expression, find the first letter if it's "H"
